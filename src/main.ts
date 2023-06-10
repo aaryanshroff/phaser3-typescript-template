@@ -7,6 +7,7 @@ const config: Phaser.Types.Core.GameConfig = {
     parent: 'app', // The ID, or DOM node ID, of the DOM element into which the canvas created by the renderer will be injected
     autoCenter: Phaser.Scale.CENTER_BOTH // The canvas will be horizontally and vertically centered within its parent
   },
+  pixelArt: true, // Disables antialiasing, making crisp pixel art
   scene: [Game] // The scene to start with
 }
 
